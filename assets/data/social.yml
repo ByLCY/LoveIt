@@ -501,9 +501,17 @@ email:
   Icon:
     Class: far fa-envelope fa-fw
 
-# 064: RSS
-rss:
+# 064: Leetcode-cn
+leetcode-cn:
   Weight: 64
+  Prefix: https://leetcode-cn.com/u/
+  Title: leetcode-cn
+  Icon:
+    Src: svg/icons/leetcode.svg
+
+# 065: RSS
+rss:
+  Weight: 65
   Url: /index.xml
   Title: RSS
   Newtab: true
